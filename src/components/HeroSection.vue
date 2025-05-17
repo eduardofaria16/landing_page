@@ -1,5 +1,5 @@
 <template>
-  <section class="min-h-screen pt-28 pb-16 relative bg-gradient-to-br from-dark to-secondary overflow-hidden">
+  <section class="min-h-screen pt-28 pb-16 relative bg-gradient-to-br from-dark to-secondary overflow-hidden" id="doctor-image">
     <div class="absolute inset-0 opacity-15">
       <div class="absolute inset-0 bg-gradient-to-b from-transparent to-dark"></div>
     </div>
@@ -21,7 +21,7 @@
           
           <div class="space-y-4 mb-8">
             <p class="text-xl"><span class="text-accent font-semibold">{{ formattedDate }}</span></p>
-            <div class="bg-dark/40 backdrop-blur p-4 rounded-lg border border-accent/20">
+            <div class="bg-dark/40 backdrop-blur p-4 rounded-lg border border-accent/20" id="workshop-description">
               <p class="text-lg md:text-xl">2 dias de workshop para dominar as técnicas mais avançadas de harmonização facial e transformar sua carreira profissional</p>
             </div>
           </div>

@@ -2,7 +2,7 @@
   <header class="fixed top-0 left-0 w-full bg-dark/90 backdrop-blur-md z-50 py-3">
     <div class="container flex justify-between items-center">
       <div class="text-white font-bold text-xl">
-        <span class="gradient-text">Workshop Hands On</span>
+        <a class="gradient-text" href="#doctor-image">Workshop Hands On</a>
       </div>
       
       <div class="ticker-wrapper overflow-hidden w-full max-w-lg mx-auto">
