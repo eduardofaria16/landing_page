@@ -45,17 +45,17 @@ const benefits = [
   {
     icon: 'IconAuthority',
     title: 'Como uma autoridade no mercado',
-    description: 'Você será reconhecido como um especialista em harmonização facial, com técnicas exclusivas e resultados superiores que destacarão seu trabalho.'
+    description: 'Você será reconhecido como um profissional de alto nível, com domínio técnico e resultados que impressionam.'
   },
   {
     icon: 'IconConfidence',
     title: 'Confiante para realizar qualquer procedimento facial',
-    description: 'A prática intensiva com supervisão especializada eliminará suas inseguranças, permitindo que você enfrente até os casos mais desafiadores.'
+    description: 'Após dois dias de prática intensiva e supervisão especializada, você terá total segurança para atender até os casos mais complexos.'
   },
   {
     icon: 'IconValue',
-    title: 'Confiante para se valorizar e aumentar seus preços',
-    description: 'Com novas habilidades e resultados diferenciados, você terá a segurança para cobrar o que seu trabalho realmente vale no mercado.'
+    title: 'Preparado para valorizar seu trabalho',
+    description: 'Com novas técnicas e diferenciação no mercado, você terá a confiança e a justificativa para cobrar mais e atrair pacientes de maior valor.'
   }
 ];
 

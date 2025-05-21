@@ -9,8 +9,8 @@
         <div class="bg-gradient-to-br from-primary/10 to-accent/10 p-6 md:p-8 rounded-2xl border border-primary/20">
           <h3 class="text-2xl font-bold mb-4 text-gray-800">Vagas limitadas!</h3>
           <p class="text-gray-700 mb-6">
-            Para garantir a qualidade do aprendizado e a atenção individual, o workshop tem vagas extremamente limitadas. 
-            <strong class="text-primary">Restam apenas {{ remainingSlots }} vagas!</strong>
+            Para garantir a qualidade do aprendizado e a atenção individual, o workshop tem vagas extremamente limitadas, 
+            <strong class="text-primary">apenas {{ remainingSlots }} vagas!</strong>
           </p>
           
           <div class="space-y-4 mb-8">
@@ -51,21 +51,6 @@
               </div>
             </div>
             
-            <div class="flex items-center">
-              <div class="text-accent mr-3">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2z" />
-                </svg>
-              </div>
-              <div>
-                <p class="font-medium text-gray-800">Investimento</p>
-                <div class="flex items-center">
-                  <span class="text-gray-500 line-through mr-2">R$ 4.997,00</span>
-                  <span class="text-primary font-bold">R$ 2.997,00</span>
-                </div>
-                <p class="text-sm text-gray-600">ou em até 12x de R$ 249,75 no cartão</p>
-              </div>
-            </div>
           </div>
         </div>
         
@@ -161,7 +146,7 @@ import { ref, computed } from 'vue';
 const eventDate = new Date('2024-07-15'); // Exemplo: 15 de julho de 2024
 
 // Número de vagas restantes
-const remainingSlots = ref(2);
+const remainingSlots = ref(5);
 
 // Formatar a data
 const formattedDate = computed(() => {

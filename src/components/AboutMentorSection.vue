@@ -25,11 +25,11 @@
             </div>
             
             <p class="text-white/90 mb-4">
-              Dr. Matheus é reconhecido como uma das principais referências em harmonização facial no Brasil, com mais de 10 anos de experiência e milhares de procedimentos realizados com excelência.
+              Dr. Matheus é reconhecido como uma das principais referências em harmonização facial no Brasil por sua precisão técnica, naturalidade nos resultados e compromisso com a segurança. Com mais de mil pacientes atendidos, ele soma mais de cinco anos de experiência na estética facial.
             </p>
             
             <p class="text-white/90 mb-4">
-              Formado em Medicina pela Universidade de São Paulo (USP), com especialização em Cirurgia Plástica e Estética Facial, o Dr. Matheus desenvolveu técnicas exclusivas que revolucionaram a abordagem da harmonização facial no país.
+              Formado em Medicina pela FAPAC (TO), com especialização em Cirurgia Plástica e Estética Facial, o Dr. Matheus desenvolveu técnicas exclusivas que revolucionaram a abordagem da harmonização facial no país.
             </p>
             
             <p class="text-white/90 mb-6">

@@ -9,7 +9,7 @@
         </h2>
         
         <p class="text-gray-700 text-lg md:text-xl mb-6 max-w-3xl relative z-10">
-          O workshop é um evento fechado para quem realmente quer se tornar um profissional de alto nível, com acompanhamento de perto e prática em pacientes reais, por isso são <strong class="text-primary">apenas {{ remainingSlots }} vagas</strong>, sem possibilidade de mais aberturas.
+          O workshop é um evento fechado para quem realmente quer se tornar um profissional de alto nível, com acompanhamento de perto e prática em pacientes reais, por isso são <strong class="text-primary">apenas 5 vagas</strong>, sem possibilidade de mais aberturas.
         </p>
         
         <p class="text-gray-700 text-lg md:text-xl mb-8 max-w-3xl relative z-10">

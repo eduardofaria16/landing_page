@@ -2,7 +2,7 @@
   <section class="py-16 bg-gradient-to-br from-dark to-secondary text-white" id="caracteristicas">
     <div class="container mx-auto px-4 md:px-6 max-w-6xl">
       <h2 class="section-title">
-        <span class="gradient-text">O que você vai receber:</span>
+        <span class="gradient-text">Tudo o que você vai receber ao se inscrever:</span>
       </h2>
       
       <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -40,7 +40,6 @@
             </p>
             
             <div class="text-accent font-bold">
-              <span class="text-2xl">VALOR: R$ 2.500</span>
               <p class="mt-2">GRÁTIS PARA PARTICIPANTES DO WORKSHOP</p>
             </div>
           </div>
@@ -65,16 +64,16 @@ const features = ref([
     description: 'Receba todos os materiais necessários para aproveitar ao máximo o conteúdo prático, incluindo apostilas detalhadas e guias de procedimentos.'
   },
   {
-    title: 'Certificação aprovada pelo MEC',
-    description: 'Ao concluir o workshop, você receberá um certificado reconhecido que agregará valor ao seu currículo profissional e validará sua expertise.'
+    title: 'Certificação reconhecida',
+    description: 'Valide sua expertise com um certificado que agrega valor real ao seu currículo.'
   },
   {
-    title: 'Equipamentos e produtos para procedimentos',
-    description: 'Durante o workshop, você terá acesso a equipamentos e produtos de alta qualidade para realizar procedimentos em pacientes reais sob supervisão.'
+    title: 'Equipamentos e produtos de alta qualidade',
+    description: 'Acesso completo a tudo o que você precisa para realizar os procedimentos durante o workshop.'
   },
   {
     title: 'Network com profissionais de alto nível',
-    description: 'Conecte-se com outros profissionais ambiciosos que compartilham o mesmo objetivo: tornar-se referência em harmonização facial.'
+    description: 'Conecte-se com colegas ambiciosos e crie oportunidades que podem mudar sua trajetória.'
   }
 ]);
 </script> 

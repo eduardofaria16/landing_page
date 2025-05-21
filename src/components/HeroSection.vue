@@ -16,13 +16,12 @@
         <div class="animate-fade-in">
           <p class="text-md text-center md:text-xl text-accent mb-3 font-medium">De 14 a 20 de julho | Presencial | Aracaju/SE</p>
           <h1 class="text-center text-3xl md:text-6xl lg:text-7xl font-bold mb-4">
-            <span class="gradient-text">2 dias de Workshop</span>
+            <span class="gradient-text">2 dias para transformar sua carreira</span>
           </h1>
-          <h2 class="text-center text-3xl md:text-4xl font-bold mb-6">HARMONIZAÇÃO FACIAL</h2>
           
           <div class="space-y-4 mb-8">
             <div class="bg-dark/40 backdrop-blur p-4 rounded-lg border border-accent/20" id="workshop-description">
-              <p class="text-lg md:text-xl">2 dias de workshop para dominar as técnicas mais avançadas de harmonização facial e transformar sua carreira profissional</p>
+              <p class="text-lg md:text-xl">Participe de um workshop 100% prático, com pacientes reais, e domine as técnicas mais avançadas de harmonização facial ao lado de um dos maiores especialistas do Brasil. Sua nova fase profissional começa aqui!</p>
             </div>
           </div>
           <div class="flex justify-center">
