@@ -20,16 +20,19 @@
           class="testimonials-swiper"
         >
           <SwiperSlide v-for="(testimonial, index) in testimonials" :key="index">
-            <div class="bg-white/10 backdrop-blur-md rounded-xl p-6 h-full flex flex-col shadow-xl border border-accent/20">
-              <div class="flex items-center mb-4">
-                <div class="w-16 h-16 rounded-full overflow-hidden border-2 border-accent flex-shrink-0">
-                  <img :src="testimonial.avatar" alt="Avatar" class="w-full h-full object-cover" />
+            <div class="bg-white/10 backdrop-blur-md rounded-xl p-6 max-h-[600px] flex flex-col shadow-xl border border-accent/20">
+              <div class="flex items-center gap-4 mb-4">
+                <div class="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center mb-6">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 text-accent" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
+                  </svg>
                 </div>
-                <div class="ml-4">
+              <div>
                   <h4 class="font-bold text-lg">{{ testimonial.name }}</h4>
                   <p class="text-sm text-accent">{{ testimonial.profession }}</p>
                 </div>
               </div>
+
               
               <div class="mb-4 text-accent">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8 opacity-50" fill="currentColor" viewBox="0 0 24 24">
@@ -71,32 +74,32 @@ const testimonials = ref([
   {
     name: 'Dra. Maria Santos',
     profession: 'Dentista',
-    avatar: 'https://randomuser.me/api/portraits/women/1.jpg',
-    text: 'Participar do workshop do Dr. Matheus foi um divisor de águas na minha carreira. As técnicas ensinadas e a confiança que adquiri me permitiram triplicar meu faturamento com procedimentos estéticos.'
+
+    text: 'Eu pensava que sabia muita coisa e vi que não sabia absolutamente nada. No último dia do workshop, em que apliquei em um paciente de verdade, com o apoio de um profissional, virou uma chave de confiança na minha vida. Hoje eu faço procedimentos sem medo!'
   },
   {
     name: 'Dr. Carlos Lima',
-    profession: 'Cirurgião Plástico',
+    profession: 'Farmacêutico',
     avatar: 'https://randomuser.me/api/portraits/men/2.jpg',
-    text: 'Mesmo já sendo especialista na área, o workshop me proporcionou novas perspectivas e técnicas que revolucionaram minha abordagem. Recomendo fortemente para quem quer se destacar no mercado.'
+    text: 'Participar do workshop do Dr. Matheus foi um divisor de águas na minha carreira. Aprendi técnicas que não vi em nenhum outro lugar e me senti muito mais segura para realizar qualquer procedimento.'
   },
   {
     name: 'Dra. Juliana Mendes',
-    profession: 'Biomédica Esteta',
+    profession: 'Dermatologista',
     avatar: 'https://randomuser.me/api/portraits/women/3.jpg',
-    text: 'A metodologia hands-on faz toda a diferença! Poder praticar sob supervisão direta do Dr. Matheus elevou minha confiança e precisão nos procedimentos. Investimento que se pagou em menos de um mês.'
+    text: 'Já fiz diversos cursos, mas ainda tinha muito receio de aplicar, principalmente nos lábios. Participar de um workshop com paciente modelo fez toda a diferença pra mim.'
   },
   {
     name: 'Dr. Ricardo Alves',
-    profession: 'Dermatologista',
+    profession: 'Cirurgião Plástico',
     avatar: 'https://randomuser.me/api/portraits/men/4.jpg',
-    text: 'O nível de detalhamento e atenção que o Dr. Matheus dedica a cada aluno é impressionante. Dominar a técnica de full face com essa precisão transformou minha prática clínica completamente.'
+    text: 'Eu já me considerava um especialista, até conhecer o Dr. Matheus. Um pequeno detalhe que aprendi fez total diferença nos resultados dos meus pacientes.'
   },
   {
     name: 'Dra. Ana Paula Costa',
-    profession: 'Farmacêutica Esteta',
+    profession: 'Dentista',
     avatar: 'https://randomuser.me/api/portraits/women/5.jpg',
-    text: 'Saí do workshop com a certeza de que posso realizar qualquer procedimento facial com segurança. A metodologia é fantástica e o suporte pós-evento faz toda a diferença!'
+    text: 'Poder realizar um procedimento em pacientes com o acompanhamento de um professor é outra coisa. Essa experiência mudou minha vida.'
   }
 ]);
 </script>

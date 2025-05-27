@@ -35,7 +35,7 @@
               </div>
               <div>
                 <p class="font-medium text-gray-800">Local</p>
-                <p class="text-gray-600">São Paulo - SP (Endereço será informado após confirmação)</p>
+                <p class="text-gray-600">Aracaju -SE (Endereço será informado após confirmação)</p>
               </div>
             </div>
             
@@ -143,7 +143,7 @@
 import { ref, computed } from 'vue';
 
 // Data do workshop
-const eventDate = new Date('2024-07-15'); // Exemplo: 15 de julho de 2024
+const eventDate = new Date('2025-07-27'); // Exemplo: 15 de julho de 2024
 
 // Número de vagas restantes
 const remainingSlots = ref(5);

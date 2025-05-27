@@ -51,7 +51,7 @@
 import { ref, computed } from 'vue';
 
 // Data do workshop (adicione a data real aqui)
-const eventDate = new Date('2024-07-15'); // Exemplo: 15 de julho de 2024
+const eventDate = new Date('2025-07-27'); // Exemplo: 15 de julho de 2024
 
 // Número de vagas restantes
 const remainingSlots = ref(2);

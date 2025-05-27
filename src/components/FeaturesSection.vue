@@ -72,7 +72,7 @@ const features = ref([
     description: 'Acesso completo a tudo o que você precisa para realizar os procedimentos durante o workshop.'
   },
   {
-    title: 'Network com profissionais de alto nível',
+    title: 'Networking com profissionais de alto nível',
     description: 'Conecte-se com colegas ambiciosos e crie oportunidades que podem mudar sua trajetória.'
   }
 ]);

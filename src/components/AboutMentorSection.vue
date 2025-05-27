@@ -29,7 +29,7 @@
             </p>
             
             <p class="text-white/90 mb-4">
-              Formado em Medicina pela FAPAC (TO), com especialização em Cirurgia Plástica e Estética Facial, o Dr. Matheus desenvolveu técnicas exclusivas que revolucionaram a abordagem da harmonização facial no país.
+              Formado em Medicina pela FAPAC (TO), o Dr. Matheus desenvolveu técnicas exclusivas que revolucionaram a abordagem da harmonização facial no país.
             </p>
             
             <p class="text-white/90 mb-6">

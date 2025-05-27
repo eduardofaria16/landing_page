@@ -10,7 +10,7 @@
             <span class="ticker-separator">✦</span>
             <span class="ticker-item">{{ formattedDate }} - Restam {{ remainingSlots }} vagas</span>
             <span class="ticker-separator">✦</span>
-            <span class="ticker-item">Últimas chamadas</span>
+            <span class="ticker-item">Última Chamada</span>
             <span class="ticker-separator">✦</span>
             </template>
           </div>
@@ -28,7 +28,7 @@
 import { ref, computed } from 'vue';
 
 
-const eventDate = new Date(); // Exemplo: 15 de julho de 2024
+const eventDate = new Date('2025-07-27'); // Exemplo: 15 de julho de 2024
 
 // Número de vagas restantes
 const remainingSlots = ref(2);
