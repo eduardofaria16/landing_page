@@ -22,7 +22,7 @@
               </div>
               <div>
                 <p class="font-medium text-gray-800">Data do Workshop</p>
-                <p class="text-gray-600">{{ formattedDate }}</p>
+                <p class="text-gray-600">26 e 27 de Julho de 2025</p>
               </div>
             </div>
             
@@ -142,17 +142,11 @@
 <script setup>
 import { ref, computed } from 'vue';
 
-// Data do workshop
-const eventDate = new Date('2025-07-27'); // Exemplo: 15 de julho de 2024
 
 // Número de vagas restantes
 const remainingSlots = ref(5);
 
-// Formatar a data
-const formattedDate = computed(() => {
-  const options = { day: 'numeric', month: 'long', year: 'numeric' };
-  return eventDate.toLocaleDateString('pt-BR', options);
-});
+
 
 // Formulário
 const form = ref({

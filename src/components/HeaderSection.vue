@@ -8,7 +8,7 @@
            <template v-for="n in 2" :key="n">
             <span class="ticker-item">Workshop Hands On</span>
             <span class="ticker-separator">✦</span>
-            <span class="ticker-item">{{ formattedDate }} - Restam {{ remainingSlots }} vagas</span>
+            <span class="ticker-item">Vagas Limitadas</span>
             <span class="ticker-separator">✦</span>
             <span class="ticker-item">Última Chamada</span>
             <span class="ticker-separator">✦</span>

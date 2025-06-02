@@ -38,7 +38,7 @@
         <div class="inline-block bg-gradient-to-r from-primary to-accent p-1 rounded-xl">
           <div class="bg-white px-6 py-3 rounded-lg">
             <p class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-accent font-bold">
-              Data do Workshop: {{ formattedDate }}
+              Data do Workshop: 26 e 27 de Julho de 2025
             </p>
           </div>
         </div>
@@ -48,17 +48,12 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue';
+import { ref } from 'vue';
 
 // Data do workshop (adicione a data real aqui)
-const eventDate = new Date('2025-07-27'); // Exemplo: 15 de julho de 2024
 
 // Número de vagas restantes
 const remainingSlots = ref(2);
 
 // Formatar a data
-const formattedDate = computed(() => {
-  const options = { day: 'numeric', month: 'long', year: 'numeric' };
-  return eventDate.toLocaleDateString('pt-BR', options);
-});
 </script> 

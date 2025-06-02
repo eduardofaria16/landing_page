@@ -14,7 +14,7 @@
       
       <div class="w-full md:w-7/12 text-white">
         <div class="animate-fade-in">
-          <p class="text-md text-center md:text-xl text-accent mb-3 font-medium">De 14 a 20 de julho | Presencial | Aracaju/SE</p>
+          <p class="text-md text-center md:text-xl text-accent mb-3 font-medium">Dia 26 e 27 de Julho | Presencial | Aracaju/SE</p>
           <h1 class="text-center text-3xl md:text-6xl lg:text-7xl font-bold mb-4">
             <span class="gradient-text">2 dias para transformar sua carreira</span>
           </h1>

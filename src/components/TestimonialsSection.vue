@@ -81,12 +81,12 @@ const testimonials = ref([
   {
     name: 'Dra. Maria Santos',
     profession: 'Dentista',
-    text: 'Eu pensava que sabia muita coisa e vi que não sabia absolutamente nada. No último dia do workshop, em que apliquei em um paciente de verdade, com o apoio de um profissional, virou uma chave de confiança na minha vida. Hoje eu faço procedimentos sem medo!'
+    text: 'No último dia do workshop, quando fui aplicar em um paciente real e com apoio do Dr. Matheus, virou uma chave na minha vida. Hoje eu faço aplicação sem medo nenhum!'
   },
   {
     name: 'Dr. Carlos Lima',
     profession: 'Farmacêutico',
-    text: 'Participar do workshop do Dr. Matheus foi um divisor de águas na minha carreira. Aprendi técnicas que não vi em nenhum outro lugar e me senti muito mais segura para realizar qualquer procedimento.'
+    text: 'Participar do workshop foi um divisor de águas na minha carreira. Aprendi técnicas que não vi em nenhum outro lugar e hoje tenho muito mais confiança no meu trabalho.'
   },
   {
     name: 'Dra. Juliana Mendes',
